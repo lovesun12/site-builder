@@ -1,18 +1,15 @@
-# 🚀 SiteBuilder – AI Powered Website Generator (PERN Stack)
+#  SiteBuilder – AI Powered Website Generator (PERN Stack)
 
 SiteBuilder is a full-stack SaaS web application that allows users to generate complete, production-ready websites using AI.  
 Users can create projects, preview versions, manage revisions, publish websites, and purchase credits via Stripe.
 
 ---
 
-## 🌐 Live Demo
-
-Frontend: https://your-frontend-url.vercel.app  
-Backend: https://your-backend-url.onrender.com  
+ 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -36,19 +33,19 @@ Backend: https://your-backend-url.onrender.com
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 Authentication & Session Management
-- 🎨 AI Website Generation
-- 🗂 Project Version Control
-- 👁 Live Preview Rendering
-- 🌍 Publish & Community Sharing
-- 💳 Stripe Credit Purchase System
-- ⚡ Credit-based AI generation system
+-  Authentication & Session Management
+-  AI Website Generation
+-  Project Version Control
+-  Live Preview Rendering
+-  Publish & Community Sharing
+-  Stripe Credit Purchase System
+-  Credit-based AI generation system
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User logs in
 2. User enters website prompt
@@ -60,6 +57,6 @@ Backend: https://your-backend-url.onrender.com
 
 ---
 
-## ⚙️ Environment Variables (Server)
+##  Environment Variables (Server)
 
 Create a `.env` file inside `/server`:
