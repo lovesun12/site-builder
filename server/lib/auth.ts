@@ -1,0 +1,38 @@
+import "dotenv/config";
+import { betterAuth } from "better-auth";
+import { prismaAdapter } from "better-auth/adapters/prisma";
+import prisma from "./prisma.js";
+// If your Prisma file is located elsewhere, you can change the path
+console.log("AUTH INIT");
+const trustedOrigins = process.env.TRUSTED_ORIGINS?.split(',') || [];
+const isProduction = process.env.NODE_ENV === "production";
+
+export const auth = betterAuth({
+    database: prismaAdapter(prisma, {
+        provider: "postgresql", // or "mysql", "sqlite", ...etc
+    }),
+    emailAndPassword: { 
+    enabled: true, 
+  },
+  user:{
+    deleteUser: {enabled: true}
+  },
+  trustedOrigins,
+  baseURL: process.env.BETTER_AUTH_URL!,
+  secret: process.env.BETTER_AUTH_SECRET!,
+  
+  advanced:{
+    cookies:{
+        session_token:{
+            name: 'auth_session',
+            attributes: {
+                httpOnly: true,
+                secure: isProduction,
+                sameSite: isProduction ? "none" : "lax",
+                path: '/',
+            }
+        }
+    }
+  }
+
+});
